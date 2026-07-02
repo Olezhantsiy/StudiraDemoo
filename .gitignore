@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Environment — NEVER commit secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Node
+front/StudiraF/research-frontend/node_modules/
+front/StudiraF/research-frontend/dist/
